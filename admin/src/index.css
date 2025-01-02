@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Outfit", serif;
+  min-height: 100vh;
+  background-color: #fcfcfc;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #a9a9a9;
+}
+
+.active {
+  background-color: #fff0ed;
+  border-color: tomato;
+}
